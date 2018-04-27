@@ -1,0 +1,33 @@
+/* 长宽比固定 */
+.fixed-ratio__wrap { // 容器
+  position: relative;
+  &:before {
+    content: '';
+    float: left;
+    margin-left: -1px;
+    height: 0;
+    width: 1px;
+    // padding-top: calc(2 / 3 * 100%); // 要设置的长宽比例（宽 : 长）
+  }
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .fixed-ratio__inner { // 要保持长宽比的元素
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+/* 长宽比固定 END */
+
+/* 单行文字溢出（显示省略号） */
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* 单行文字溢出（显示省略号） END */

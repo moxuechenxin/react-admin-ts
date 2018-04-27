@@ -1,0 +1,19 @@
+.comp-leftnav {
+  width: 200px;
+  height: 100vh;
+
+  .top-title {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0 16px;
+    height: 70px;
+    color: #c0ccda;
+  }
+
+  .ant-menu {
+    padding-top: 70px;
+    margin-top: -70px;
+    height: 100%;
+  }
+}
