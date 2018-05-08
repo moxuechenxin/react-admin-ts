@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
     "antd": "^3.3.3",
     "axios": "^0.18.0",
+    "babel-loader": "^7.1.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
@@ -19,10 +22,14 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
     "babel-plugin-import": "^1.6.7",
     "node-sass": "^4.8.3",
     "react-app-rewired": "^1.5.0",
-    "sass-loader": "^6.0.7"
+    "sass-loader": "^6.0.7",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3"
   },
   "proxy": {
     "/api": {
